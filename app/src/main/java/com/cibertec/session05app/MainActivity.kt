@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         spLanguages.onItemClickListener = AdapterView.OnItemClickListener{ adapterView, view, position, l ->
 
             val selected = oListaLanguages[position]
+            //Cambia titulo
             tvTittle.text = oListaLanguages[position].toString()
             println(selected)
 
